@@ -269,6 +269,10 @@ function App() {
         <div className="pa-column1">
           <img src={require("./images/Color logos/PNG/Frame 2446color logos.png").default} alt="LG"  />
         </div>
+
+        <div className="pa-column2">
+          <img src={require("./images/Color logos/PNG/Frame 2445color logos.png").default} alt="geleximco"/>
+        </div>
       </div>
     </div>
   </div>
