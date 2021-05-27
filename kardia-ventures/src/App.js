@@ -264,6 +264,7 @@ function App() {
   {/*Section 5 Partners*/} 
   <div className="parts">
     <h2 id="parts">Our Partners</h2>
+    
     <div className="pa-container">
       <div className="pa-row1">
         <div className="pa-column1">
@@ -273,6 +274,27 @@ function App() {
         <div className="pa-column2">
           <img src={require("./images/Color logos/PNG/Frame 2445color logos.png").default} alt="geleximco"/>
         </div>
+
+        <div className="pa-column3">  
+          <img src={require("./images/Color logos/PNG/mai-linh-corporation-seeklogo.comcolor logos.png").default} alt="mailinh"/>
+        </div>
+
+        <div class="pa-column4">
+          <img src={require("./images/Color logos/PNG/Frame 2444color logos.png").default} alt="vtv"/>
+        </div>
+
+        <div class="pa-column5">
+          <img src={require("./images/Color logos/PNG/Frame 2454color logos.png").default} alt="vff"/>
+        </div>
+
+        <div class="pa-column6">  
+          <img src={require("./images/Color logos/PNG/Frame 2453color logos.png").default} alt="sports"/>
+        </div>
+
+      </div>
+
+      <div class="pa-row2">
+        
       </div>
     </div>
   </div>
