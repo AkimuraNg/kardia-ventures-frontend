@@ -976,6 +976,52 @@
     color: #282863;
 }
 
+.parts h3{
+    position: static;
+    width: 630px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-transform: uppercase;
+
+    color: rgba(28, 28, 40, 0.54);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.parts h4{
+    position: static;
+    width: 620px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-transform: uppercase;
+
+    color: rgba(28, 28, 40, 0.54);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
 .pa-container {
     display: flex;
     flex-direction: column;
@@ -986,7 +1032,43 @@
     width: 1280px;
     height: 422px;
     left: 60px;
-    top: 5080px;
+    top: 5030px;
+}
+
+.pa-containerE{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1275px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.pa-containerBP{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1280px;
+    height: 208px;
+    left: 0px;
+    top: 214px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 96px 0px;
 }
 
 .pa-row1{
@@ -1003,6 +1085,42 @@
 
     flex: none;
     order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.pa-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1280px;
+    height: 70px;
+    left: 0px;
+    top: 48px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.pa-row3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 848px;
+    height: 70px;
+    left: 0px;
+    top: 138px;
+
+    flex: none;
+    order: 2;
     flex-grow: 0;
     margin: 20px 0px;
 }
@@ -1133,22 +1251,215 @@
     margin: 0px 15px;
 }
 
-.pa-row2{
+.pa-column7{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
     position: static;
-    width: 1280px;
+    width: 200px;
     height: 70px;
     left: 0px;
-    top: 48px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+
+.pa-column8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 216px;
+    top: 0px;
+    
+    background: rgba(209, 228, 251, 0.2);
     
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 20px 0px;
+    margin: 0px 16px;
+}
+
+.pa-column9{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 432px;
+    top: 0px;
+    
+    background: rgba(209, 228, 251, 0.2);
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 648px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 864px;
+    top: 0px;
+    
+    background: rgba(209, 228, 251, 0.2);
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 1080px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column13{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column14{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 216px;
+    top: 0px;
+    
+    background: rgba(209, 228, 251, 0.2);
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column15{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 432px;
+    top: 0px;
+    
+    background: rgba(209, 228, 251, 0.2);
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.pa-column16{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 648px;
+    top: 0px;
+    
+    background: rgba(209, 228, 251, 0.2);
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
 }
 
 /*Email*/

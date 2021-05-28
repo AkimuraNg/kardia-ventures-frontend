@@ -1,11 +1,6 @@
 import React from 'react';
 import './css/bootstrap.min.css';
 import './css/main.css';
-import Frame2471 from './images/illustrations/SVG/Frame 2471.svg';
-import Frame2472 from './images/illustrations/PNG/Frame 2472.png';
-import Frame2473 from './images/illustrations/PNG/Frame 2473.png';
-import Frame2468 from './images/illustrations/SVG/Frame 2468.svg';
-import footer from './images/Footer/Rectangle 13.png'
 
 
 function App() {
@@ -44,7 +39,7 @@ function App() {
   <header className="header">
     <div className="overlay" />
     <div className="background">
-      <img src={Frame2471} alt="home bg"/>
+      <img src={require("./images/illustrations/PNG/Frame 2471.png").default} alt="home bg"/>
     </div>
     <div className="container">
       <div className="description">
@@ -88,7 +83,7 @@ function App() {
   {/*Section 1 Who we are*/}
   <div className="who">
     <h1 id="who">Who We Are</h1>
-    <img src={Frame2472} alt="who bg" />
+    <img src={require("./images/illustrations/PNG/Frame 2472.png").default} alt="who bg" />
     <div className="w-container">
       <div className="w-container1">
         <div className="who-panel who-card">
@@ -132,7 +127,7 @@ function App() {
   </div>
   {/*Section 2 Our investment*/}
   <div className="philo">
-    <img src={Frame2473} height={2400} alt="philo bg" />
+    <img src={require("./images/illustrations/PNG/Frame 2473.png").default} height={2400} alt="philo bg" />
     <h2 id="philo">FROM THE GROUND UP</h2>
     <h3>Our Investment Philosophy</h3>
     <div className="ph-container1">
@@ -266,35 +261,82 @@ function App() {
     <h2 id="parts">Our Partners</h2>
     
     <div className="pa-container">
-      <div className="pa-row1">
-        <div className="pa-column1">
-          <img src={require("./images/Color logos/PNG/Frame 2446color logos.png").default} alt="LG"  />
-        </div>
+      <div className="pa-containerE">
+        <h3>enterprise</h3>
+        <div className="pa-row1">
+          <div className="pa-column1">
+            <img src={require("./images/Color logos/PNG/Frame 2446color logos.png").default} alt="LG"  />
+          </div>
 
-        <div className="pa-column2">
-          <img src={require("./images/Color logos/PNG/Frame 2445color logos.png").default} alt="geleximco"/>
-        </div>
+          <div className="pa-column2">
+            <img src={require("./images/Color logos/PNG/Frame 2445color logos.png").default} alt="geleximco"/>
+          </div>
 
-        <div className="pa-column3">  
-          <img src={require("./images/Color logos/PNG/mai-linh-corporation-seeklogo.comcolor logos.png").default} alt="mailinh"/>
-        </div>
+          <div className="pa-column3">  
+            <img src={require("./images/Color logos/PNG/mai-linh-corporation-seeklogo.comcolor logos.png").default} alt="mailinh"/>
+          </div>
 
-        <div class="pa-column4">
-          <img src={require("./images/Color logos/PNG/Frame 2444color logos.png").default} alt="vtv"/>
-        </div>
+          <div className="pa-column4">
+            <img src={require("./images/Color logos/PNG/Frame 2444color logos.png").default} alt="vtv"/>
+          </div>
 
-        <div class="pa-column5">
-          <img src={require("./images/Color logos/PNG/Frame 2454color logos.png").default} alt="vff"/>
-        </div>
+          <div className="pa-column5">
+            <img src={require("./images/Color logos/PNG/Frame 2454color logos.png").default} alt="vff"/>
+          </div>
 
-        <div class="pa-column6">  
-          <img src={require("./images/Color logos/PNG/Frame 2453color logos.png").default} alt="sports"/>
+          <div className="pa-column6">  
+            <img src={require("./images/Color logos/PNG/Frame 2453color logos.png").default} alt="sports"/>
+          </div>
         </div>
-
       </div>
 
-      <div class="pa-row2">
-        
+
+      <div className="pa-containerBP">
+        <h4>Blockchain Partners</h4>
+        <div className="pa-row2">
+          <div className="pa-column7">
+            <img src={require("./images/Color logos/PNG/Frame 2319color logos.png").default} alt="contentos"/>
+          </div>
+
+          <div className="pa-column8">
+            <img src={require("./images/Color logos/PNG/certik-logotype-v-b 1color logos.png").default} alt="certik"/>
+          </div>
+
+          <div className="pa-column9">
+            <img src={require("./images/Color logos/PNG/Frame 2447color logos.png").default} alt="morpheus"/>
+          </div>
+
+          <div className="pa-column10">
+            <img src={require("./images/Color logos/PNG/Frame 2321color logos-1.png").default} alt="vite"/>
+          </div>
+
+          <div className="pa-column11">
+            <img src={require("./images/Color logos/PNG/Frame 2321color logos-2.png").default} alt="neo"/>
+          </div>
+
+          <div className="pa-column12">
+            <img src={require("./images/Color logos/PNG/Frame 2321color logos-3.png").default} alt="chainlink"/>
+          </div>
+        </div>
+
+        <div className="pa-row3">
+          <div className="pa-column13">
+            <img src={require("./images/Color logos/PNG/Frame 2448color logos.png").default} alt="tokoin"/>
+          </div>
+
+          <div className="pa-column14">
+            <img src={require("./images/Color logos/PNG/Frame 2449color logos.png").default} alt="top network"/>
+          </div>
+
+          <div className="pa-column15">
+            <img src={require("./images/Color logos/PNG/Frame 2450color logos.png").default} alt="block crafters"/>
+          </div>
+
+          <div className="pa-column16">
+            <img src={require("./images/Color logos/PNG/Frame 2321color logos-4.png").default} alt="brand protocol"/>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -318,7 +360,7 @@ function App() {
   {/*Footer*/}
   <footer className="footer">
     <div className="footer-container">
-      <img src={footer} width={1510} height="100%" alt="footer bg"/>
+      <img src={require("./images/Footer/Rectangle 13.png").default} width={1510} height="100%" alt="footer bg"/>
     </div>
   </footer>
 </>
