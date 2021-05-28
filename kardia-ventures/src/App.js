@@ -381,6 +381,22 @@ function App() {
       <div className="fbg">
       <img src={require("./images/Footer/Rectangle 13.png").default} width={1510} height="100%" alt="footer bg"/>
       </div>
+
+      <div className="rowF">
+        <div className="innerF1">
+          <h1>Copyright © 2021. All rights reserved</h1>
+        </div>
+
+        <div className="innerF2">
+          <h2>Legal</h2>
+          <h3>Term of Services</h3>
+          <h4>Privacy Policy</h4>
+        </div>
+
+        <div className="innerF3">
+          <h2>Social Media</h2>
+        </div>
+      </div>
     </div>
   </footer>
 </>
