@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import './css/bootstrap.min.css';
-import './css/main.css';
 import './css/who.css';
 import './css/philosophy.css';
 import './css/value.css';
 import './css/portfolio.css';
 import './css/partners.css';
 import './css/contact.css';
+import './css/footer.css';
+import './css/navbar-header.css';
+
 
 function App() {
   return (
@@ -441,6 +443,23 @@ function App() {
 
         <div className="innerF3">
           <h2>Social Media</h2>
+          <div className="icon-row">
+            <div className="S-icon1">
+                <img src={require("./images/facebook.png").default} alt="facebook" height="35"/>
+            </div>
+
+            <div className="S-icon2">
+                <img src={require("./images/twitter.png").default} alt="twitter" height="35"/>
+            </div>
+
+            <div className="S-icon3">
+                <img src={require("./images/google.png").default} alt="google" height="35"/>
+            </div>
+
+            <div className="S-icon4">
+                <img src={require("./images/linkedin.png").default} alt="LinkedIn" height="35"/>
+            </div>
+          </div>
         </div>
       </div>
     </div>
