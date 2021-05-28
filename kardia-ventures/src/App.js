@@ -100,9 +100,9 @@ function App() {
     <div className="w-container">
       <div className="w-container1">
         <div className="who-panel who-card">
-          {/* <div className="w-icon1">
+          <div className="w-icon1">
             <img src={require("./icons/link.svg").default} alt="link" height="30"/>
-          </div> */}
+          </div>
           <h2>Investment arm of KardiaChain</h2>
           <p>
             Kardia Ventures is a dedicated Crypto-centric fund and served 
