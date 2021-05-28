@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './css/bootstrap.min.css';
 import './css/main.css';
-
 
 function App() {
   return (
@@ -379,7 +378,9 @@ function App() {
   {/*Footer*/}
   <footer className="footer">
     <div className="footer-container">
+      <div className="fbg">
       <img src={require("./images/Footer/Rectangle 13.png").default} width={1510} height="100%" alt="footer bg"/>
+      </div>
     </div>
   </footer>
 </>

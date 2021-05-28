@@ -36,13 +36,6 @@
     background:transparent !important;
 }
 
-.scrolled-down{
-    transform:translateY(-100%); transition: all 0.3s ease-in-out;
-}
-  
-.scrolled-up{
-    transform:translateY(0); transition: all 0.3s ease-in-out;
-}
 
 /*Header*/
 .overlay{
@@ -1050,7 +1043,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 50px 0px;
 }
 
 .pa-containerBP{
@@ -1474,7 +1467,7 @@
     width: 753px;
     height: 336px;
     left: 344px;
-    top: 5700px;
+    top: 5770px;
 
     border-radius: 50px;
 }
@@ -1483,10 +1476,8 @@
     position: relative;
     width: 434.52px;
     height: 440.73px;
-    left: -450px;
-    top: 50px;
-
-    transform: rotate(2.59deg);
+    right: 460px;
+    top: 95px;
 }
 
 .email .subscribe{
@@ -1642,11 +1633,14 @@
 */
 
 /*Footer*/
-.footer{
+.footer-container {
     position: absolute;
-    width: 1400px;
+    width: 1440px;
     height: 334px;
     left: 0px;
-    top: 6200px;
+    top: 6400px;
 }
 
+.fbg{
+    position:relative;
+}
