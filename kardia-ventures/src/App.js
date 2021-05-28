@@ -1,6 +1,12 @@
 import React, {Component} from 'react';
 import './css/bootstrap.min.css';
 import './css/main.css';
+import './css/who.css';
+import './css/philosophy.css';
+import './css/value.css';
+import './css/portfolio.css';
+import './css/partners.css';
+import './css/contact.css';
 
 function App() {
   return (
@@ -9,7 +15,11 @@ function App() {
   {/*Navbar*/}
   <nav className="navbar navbar-expand-lg fixed-top">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">Headline Logo</a>
+      <a className="navbar-brand" href="#">
+        <div className="logo">
+          <img src={require("./icons/Logo.svg").default} alt="Kardia Venture"/>
+        </div>
+      </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
         <span className="navbar-toggler-icon" />&gt;
       </button>
@@ -90,9 +100,9 @@ function App() {
     <div className="w-container">
       <div className="w-container1">
         <div className="who-panel who-card">
-          <div className="w-icon1">
+          {/* <div className="w-icon1">
             <img src={require("./icons/link.svg").default} alt="link" height="30"/>
-          </div>
+          </div> */}
           <h2>Investment arm of KardiaChain</h2>
           <p>
             Kardia Ventures is a dedicated Crypto-centric fund and served 
@@ -417,6 +427,9 @@ function App() {
 
       <div className="rowF">
         <div className="innerF1">
+          <div className="F-Logo">
+            <img src={require("./icons/Logo-1.svg").default} alt="Logo"/>
+          </div>
           <h1>Copyright © 2021. All rights reserved</h1>
         </div>
 

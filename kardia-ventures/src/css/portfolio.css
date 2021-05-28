@@ -1,0 +1,257 @@
+
+/*Portfolios*/
+.ports h2{
+    position: absolute;
+    width: 739px;
+    height: 44px;
+    left: 80px;
+    top: 4385px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #282863;
+
+}
+
+.po-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1275px;
+    height: 160px;
+    left: 60px;
+    top: 4460px;
+
+}
+
+.p-row1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1275px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.po-column1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 215px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 435px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 645px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 860px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 1075px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.p-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 630px;
+    height: 70px;
+    left: 0px;
+    top: 90px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.po-column7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 215px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.po-column9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: static;
+    width: 200px;
+    height: 70px;
+    left: 430px;
+    top: 0px;
+
+    background: rgba(209, 228, 251, 0.2);
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
