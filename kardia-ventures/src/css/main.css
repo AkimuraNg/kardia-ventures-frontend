@@ -296,6 +296,25 @@
     margin: 19px 0px;
 }
 
+.w-icon1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px;
+
+    position: static;
+    width: 0px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
 .w-containerX2{
     display: flex;
     flex-direction: row;
@@ -340,6 +359,25 @@
     margin: 0px 19px;
 }
 
+.w-icon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px;
+
+    position: static;
+    width: 53px;
+    height: 48px;
+    left: 32.92px;
+    top: 32.1px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
 .w-container3{
     display: flex;
     flex-direction: column;
@@ -363,6 +401,23 @@
     margin: 0px 19px;
 }
 
+.w-icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:  0px 0px;
+
+    position: static;
+    width: 53px;
+    height: 48px;
+    left: 32.12px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
 
 .who p{
     position: static;
@@ -463,6 +518,25 @@
     border-radius: 16px;
 }
 
+.p-icon1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 30px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
 .ph-container2{
     display: flex;
     flex-direction: column;
@@ -483,6 +557,25 @@
     border-radius: 16px;
 }
 
+.p-icon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
 .ph-container3{
     display: flex;
     flex-direction: column;
@@ -501,6 +594,25 @@
     border-radius: 16px;
 }
 
+.p-icon3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
 .ph-container4{
     display: flex;
     flex-direction: column;
@@ -517,6 +629,28 @@
     
     box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04), 0px 4px 8px rgba(96, 97, 112, 0.16);
     border-radius: 16px;
+}
+
+.p-icon4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
 }
 
 .philo p{
@@ -614,6 +748,25 @@
     border-radius: 16px;
 }
 
+.v-icon1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 16px 0px;
+}
+
 .v-container2{
     display: flex;
     flex-direction: column;
@@ -636,6 +789,25 @@
 
 }
 
+.v-icon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+}
+
 .v-container3{
     display: flex;
     flex-direction: column;
@@ -655,6 +827,26 @@
     border-radius: 16px;
 }
 
+.v-icon3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+}
+
 .v-container4{
     display: flex;
     flex-direction: column;
@@ -672,6 +864,26 @@
 
     box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04), 0px 4px 8px rgba(96, 97, 112, 0.16);
     border-radius: 16px;
+}
+
+.v-icon4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 53px;
+    height: 30px;
+    left: 32px;
+    top: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+
 }
 
 .value p{

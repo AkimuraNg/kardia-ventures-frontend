@@ -90,6 +90,9 @@ function App() {
     <div className="w-container">
       <div className="w-container1">
         <div className="who-panel who-card">
+          <div className="w-icon1">
+            <img src={require("./icons/link.svg").default} alt="link" height="30"/>
+          </div>
           <h2>Investment arm of KardiaChain</h2>
           <p>
             Kardia Ventures is a dedicated Crypto-centric fund and served 
@@ -101,6 +104,9 @@ function App() {
       <div className="w-containerX2">
         <div className="w-container2">
           <div className="who-panel who-card">
+            <div className="w-icon2">
+              <img src={require("./icons/funnel-fill.svg").default} alt="funnel" height="30"/>
+            </div>
             <h2>Our Expertise</h2>
             <p>
               The Kardia Ventures team is experienced in 
@@ -113,6 +119,9 @@ function App() {
         </div>
         <div className="w-container3">
           <div className="who-panel who-card">
+            <div className="w-icon3">
+              <img src={require("./icons/wallet-fill.svg").default} alt="wallet" height="30"/>
+            </div>
             <h2>Our Mission</h2>
             <p>
               Kardia Ventures is built based on our strong belief 
@@ -137,6 +146,9 @@ function App() {
     <h3>Our Investment Philosophy</h3>
     <div className="ph-container1">
       <div className="philo-panel philo-card">
+        <div className="p-icon1">
+          <img src={require("./icons/heart.svg").default} alt="heart" height="30"/>
+        </div>
         <h4>Do. Dare. Deliver.</h4>
         <p>
           We are the dreamers, doers, 
@@ -147,6 +159,9 @@ function App() {
     </div>
     <div className="ph-container2">
       <div className="philo-panel philo-card">
+        <div className="p-icon2">
+          <img src={require("./icons/stars.svg").default} alt="stars" height="30"/>
+        </div>
         <h4>Inspire the Bold</h4>
         <p>
           Born out of KardiaChain, we value 
@@ -158,6 +173,9 @@ function App() {
     </div>
     <div className="ph-container3">
       <div className="philo-panel philo-card">
+        <div className="p-icon3">
+          <img src={require("./icons/search.svg").default} alt="search" height="30"/>
+        </div>
         <h4>Macro Vision, Micro Execution</h4>
         <p>
           Our investment team and advisors lineup have very deep understanding 
@@ -168,6 +186,9 @@ function App() {
     </div>
     <div className="ph-container4">
       <div className="philo-panel philo-card">
+        <div className="p-icon4">
+          <img src={require("./icons/puzzle-fill.svg").default} alt="puzzle" height="30"/>
+        </div>
         <h4>Propel New Disruptor</h4>
         <p>
           We cut through the noise to find 
@@ -186,6 +207,9 @@ function App() {
     <h3>Strategic Value Proposition</h3>
     <div className="v-container1">
       <div className="value-panel value-card">
+        <div className="v-icon1">
+          <img src={require("./icons/trophy.svg").default} alt="trophy" height="30"/>
+        </div>
         <h4>Regional Development</h4>
         <p>
           KardiaChain is well-known in Vietnam and 
@@ -197,6 +221,9 @@ function App() {
     </div>
     <div className="v-container2">
       <div className="value-panel value-card">
+        <div className="v-icon2">
+          <img src={require("./icons/journals.svg").default} alt="default" height="30"/>
+        </div>
         <h4>Vietnam Focus</h4>
         <p>
           Strategic partner with largest enterprises in Vietnam,
@@ -207,6 +234,9 @@ function App() {
     </div>
     <div className="v-container3">
       <div className="value-panel value-card">
+        <div className="v-icon3">
+          <img src={require("./icons/globe.svg").default} alt="Globe" height="30"/>
+        </div>
         <h4>Media Network</h4>
         <p>
           Strong affiliation with media and other enterprise partners 
@@ -216,6 +246,9 @@ function App() {
     </div>
     <div className="v-container4">
       <div className="value-panel value-card">
+        <div class="v-icon4">
+          <img src={require("./icons/link-45deg.svg").default} alt="link" height="30"/>
+        </div>
         <h4>Technical Support</h4>
         <p>
           Our in-house top-notch technical team 
