@@ -35,6 +35,8 @@ function App() {
       </div>
     </div>
   </nav>
+
+
   {/*Header*/}
   <header className="header">
     <div className="overlay" />
@@ -80,6 +82,8 @@ function App() {
       </div>
     </div>
   </header>
+
+
   {/*Section 1 Who we are*/}
   <div className="who">
     <h1 id="who">Who We Are</h1>
@@ -125,6 +129,8 @@ function App() {
       </div>  
     </div>
   </div>
+
+
   {/*Section 2 Our investment*/}
   <div className="philo">
     <img src={require("./images/illustrations/PNG/Frame 2473.png").default} height={2400} alt="philo bg" />
@@ -173,6 +179,8 @@ function App() {
       </div>
     </div>
   </div>
+
+
   {/* Section 3 Value Pros*/}
   <div className="value">
     <h2 id="value">FROM OUR EXPERIENCE FOUNDERS</h2>
@@ -219,6 +227,8 @@ function App() {
       </div>
     </div>
   </div>
+
+
   {/*Section 4 Portfolios*/}
   <div className="ports">
     <h2 id="ports">Our Portfolios</h2>
@@ -256,6 +266,8 @@ function App() {
       </div>
     </div> 
   </div>
+
+
   {/*Section 5 Partners*/} 
   <div className="parts">
     <h2 id="parts">Our Partners</h2>
@@ -340,9 +352,14 @@ function App() {
       </div>
     </div>
   </div>
+
+
   {/*Email*/}
   <div className="email">
     <div className="email-container">
+      <div className="ebg">
+        <img src={require("./images/illustrations/PNG/Frame 2468.png").default} alt="email-background"/>
+      </div>
       <form>
         <div className="subscribe">
           <h1>Receive our latest news!</h1>
@@ -357,6 +374,8 @@ function App() {
       </form>
     </div>
   </div>
+
+
   {/*Footer*/}
   <footer className="footer">
     <div className="footer-container">
