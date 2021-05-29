@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-scroll';
+
 import './css/bootstrap.min.css';
 import './css/who.css';
 import './css/philosophy.css';
@@ -28,19 +30,19 @@ function App() {
         <div className="collapse navbar-collapse" id="main_nav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link " href="#who">Who We Are</a>
+              <Link className="nav-link " to="who" smooth={true} duration={1000}>Who We Are</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#philo">Philosophy</a>
+              <Link className="nav-link" to="philo" smooth={true} duration={1000}>Philosophy</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#value">Value Proposition</a>
+              <Link className="nav-link" to="value" smooth={true} duration={1000}>Value Proposition</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#ports">Our Portfolios</a>
+              <Link className="nav-link" to="ports" smooth={true} duration={1000}>Our Portfolios</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#parts">Our Partners</a>
+              <Link className="nav-link" to="parts" smooth={true} duration={1000}>Our Partners</Link>
             </li>
           </ul>
         </div>
