@@ -28,7 +28,7 @@ function App() {
         <div className="collapse navbar-collapse" id="main_nav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#who">Who We Are</a>
+              <a className="nav-link " href="#who">Who We Are</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#philo">Philosophy</a>

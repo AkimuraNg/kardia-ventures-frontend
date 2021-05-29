@@ -44,6 +44,7 @@
     height: 440.73px;
     right: 460px;
     top: 95px;
+    
 }
 
 .email .subscribe{
@@ -94,7 +95,7 @@
     left: 37.5px;
     top: 68px;
 
-    font-family: sans-serif;
+    font-family: 'Monaco', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
