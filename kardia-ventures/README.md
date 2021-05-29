@@ -12,9 +12,13 @@ This website was bootstrapped with [Create React App](https://github.com/faceboo
 ### Production build
 * Static Server
             
-            ```shell
-                $ npm install -g serve
-                ```
+```shell
+$ npm install -g serve
+```
 * Build
+
+```shell
+$ npx serve -s build
+```
 
 * Serve file is stored in `build` directory with HTTP server.
