@@ -111,6 +111,31 @@
     margin: 32px 15px;
 }
 
+.email .bottom .form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    
+    position: static;
+    width: 307px;
+    height: 52px;
+    left: calc(50% - 307px/2);
+    top: calc(50% - 52px/2);
+    
+    background: #FFFFFF;
+    
+    border: 1.5px solid #E2E5E9;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 0px 0px;
+}
+
 .email .bottom{
     display: flex;
     flex-direction: row;
