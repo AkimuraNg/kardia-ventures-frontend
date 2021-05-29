@@ -17,7 +17,7 @@
 
 .parts h3{
     position: static;
-    width: 630px;
+    width: 620px;
     height: 28px;
     left: 0px;
     top: 0px;
@@ -70,8 +70,8 @@
     position: absolute;
     width: 1280px;
     height: 422px;
-    left: 60px;
-    top: 5030px;
+    left: 80px;
+    top: 4950px;
 }
 
 .pa-containerE{
