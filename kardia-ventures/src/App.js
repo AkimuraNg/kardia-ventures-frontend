@@ -411,7 +411,11 @@ function App() {
           <div className="frame">
             <div className="bottom">
               <input type="text" className="form-control" placeholder="Your email" name />
-              <button type="button" className="btn btn-primary">Subscribe</button>
+              <button type="button" className="btn btn-primary">
+               <div className="btext">
+                  <h2>Subscribe</h2>
+                 </div> 
+              </button>
             </div>
           </div>
         </form>
