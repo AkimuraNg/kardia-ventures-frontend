@@ -154,10 +154,10 @@ function App() {
 
     {/*Section 2 Our investment*/}
     <div className="philo">
-      <div className="ph-bg" id="philo">
+      <div className="ph-bg" >
       <img src={require("./images/illustrations/Frame 2477(1).png").default} height={1800} alt="philo bg" />
       </div>
-      <h2 >FROM THE GROUND UP</h2>
+      <h2 id="philo">FROM THE GROUND UP</h2>
       <h3>Our Investment Philosophy</h3>
       <div className="ph-container1">
         <div className="philo-panel philo-card">
