@@ -235,3 +235,12 @@
     flex-grow: 0;
     margin: 32px 0px;
 }
+
+.ph-bg{
+    position: absolute;
+    width: 500px;
+    height: 1922px;
+    left: 700px;
+    top: 2000px;
+
+}

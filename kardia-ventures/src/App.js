@@ -99,7 +99,7 @@ function App() {
     {/*Section 1 Who we are*/}
     <div className="who">
       <h1 id="who">Who We Are</h1>
-      <img src={require("./images/illustrations/PNG/Frame 2472.png").default} alt="who bg" />
+      <img src={require("./images/illustrations/Frame 2479.png").default} alt="who bg" />
       <div className="w-container">
         <div className="w-container1">
           <div className="who-panel who-card">
@@ -154,7 +154,9 @@ function App() {
 
     {/*Section 2 Our investment*/}
     <div className="philo">
-      <img src={require("./images/illustrations/PNG/Frame 2473.png").default} height={2400} alt="philo bg" />
+      <div className="ph-bg">
+      <img src={require("./images/illustrations/Frame 2477(1).png").default} height={1800} alt="philo bg" />
+      </div>
       <h2 id="philo">FROM THE GROUND UP</h2>
       <h3>Our Investment Philosophy</h3>
       <div className="ph-container1">
