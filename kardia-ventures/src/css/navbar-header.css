@@ -1,12 +1,12 @@
 /*Navigation bar*/
 .navbar{
-    position: absolute;
+    position: static;
     width: 1440px;
     height: 80px;
     left: 0px;
     bottom: 0px;
 
-    background: transparent;
+    background:transparent;
 }
 
 .nav-link , .navbar-brand{
@@ -15,7 +15,7 @@
 }
 
 .logo{
-    position: absolute;
+    position: static;
     left: 5.56%;
     right: 85.83%;
     top: 32.5%;

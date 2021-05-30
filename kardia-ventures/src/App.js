@@ -97,8 +97,8 @@ function App() {
 
 
     {/*Section 1 Who we are*/}
-    <div className="who">
-      <h1 id="who">Who We Are</h1>
+    <div className="who" id="who">
+      <h1 >Who We Are</h1>
       <img src={require("./images/illustrations/Frame 2479.png").default} alt="who bg" />
       <div className="w-container">
         <div className="w-container1">
@@ -154,10 +154,10 @@ function App() {
 
     {/*Section 2 Our investment*/}
     <div className="philo">
-      <div className="ph-bg">
+      <div className="ph-bg" id="philo">
       <img src={require("./images/illustrations/Frame 2477(1).png").default} height={1800} alt="philo bg" />
       </div>
-      <h2 id="philo">FROM THE GROUND UP</h2>
+      <h2 >FROM THE GROUND UP</h2>
       <h3>Our Investment Philosophy</h3>
       <div className="ph-container1">
         <div className="philo-panel philo-card">
@@ -218,7 +218,10 @@ function App() {
 
     {/* Section 3 Value Pros*/}
     <div className="value">
-      <h2 id="value">FROM OUR EXPERIENCE FOUNDERS</h2>
+      <div className = "v-bg" id="value">
+        <img src={require("./images/illustrations/PNG/Frame 2472.png").default} alt="value bg"/>
+      </div>
+      <h2 >FROM OUR EXPERIENCE FOUNDERS</h2>
       <h3>Strategic Value Proposition</h3>
       <div className="v-container1">
         <div className="value-panel value-card">

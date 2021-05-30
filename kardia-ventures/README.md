@@ -13,7 +13,7 @@ This website was bootstrapped with [Create React App](https://github.com/faceboo
 * Install React
 
     ```shell
-    $ npm install react
+    $ npm install
     ```
 
 * Static Server

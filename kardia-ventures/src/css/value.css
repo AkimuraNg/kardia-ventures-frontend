@@ -238,3 +238,11 @@
     flex-grow: 0;
     margin: 32px 0px;
 }
+
+.v-bg{
+    position: absolute;
+    width: 500px;
+    height: 1922px;
+    left: 0px;
+    top: 3600px;
+}
